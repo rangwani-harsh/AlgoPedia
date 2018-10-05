@@ -75,7 +75,7 @@ void findCentroid(int vert){
 int main()
 {
 
-	ios_base:: sync_with_stdio(false); cin.tie(0);
+    ios_base:: sync_with_stdio(false); cin.tie(0);
     int n,s,d;
     cin>>n;
     for(int i=0;i<n-1;i++){
@@ -85,13 +85,5 @@ int main()
     }
     dfs1(1,1);
     findCentroid(1);
-
-
-
-
-
-
-
-	return 0;
-
+    return 0;
 }
